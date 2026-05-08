@@ -369,26 +369,26 @@ What to avoid:
 - [x] Stands — *JoJo's Bizarre Adventure*
 - [x] Hamon (Ripple) — *JoJo* part 1–2
 - [x] Spin (Steel Ball Run) — *JoJo* part 7
-- [ ] Spirit Energy — *Yu Yu Hakusho*
-- [ ] Soul Wavelength — *Soul Eater*
+- [x] Spirit Energy — *Yu Yu Hakusho*
+- [x] Soul Wavelength — *Soul Eater*
 - [x] Anti-Magic — *Black Clover*
 - [x] Grimoire magic — *Black Clover*
 - [x] Breathing Styles — *Demon Slayer*
 - [x] Blood Demon Art — *Demon Slayer*
-- [ ] Devil contracts — *Chainsaw Man*
+- [x] Devil contracts — *Chainsaw Man*
 - [x] Curses (Berserk) — *Berserk* — consolidated into Sacrifice and Apostlehood entry
 - [x] God Hand brands — *Berserk* — consolidated into Sacrifice and Apostlehood entry
 - [x] Magecraft — *Fate* / *Type-Moon*
 - [x] Reality Marbles — *Fate*
 - [x] True Magic (Five) — *Fate / Tsukihime*
 - [x] Mystic Eyes — *Tsukihime / Kara no Kyoukai*
-- [ ] Mushoku Tensei magic — chant-based + magic circles
-- [ ] Frieren mana / illusory mana
-- [ ] Yggdrasil — *Overlord*
-- [ ] Skill system — *Re:Monster / That Time I Got Reincarnated*
-- [ ] Spirits / Authority of Sloth — *Re:Zero*
-- [ ] Mahoutsukai magic — *Ancient Magus' Bride*
-- [ ] Magic of Sajou — *Witch Hat Atelier*
+- [x] Mushoku Tensei magic — chant-based + magic circles
+- [x] Frieren mana / illusory mana
+- [x] Yggdrasil — *Overlord*
+- [x] Skill system — *Re:Monster / That Time I Got Reincarnated*
+- [x] Spirits / Authority of Sloth — *Re:Zero*
+- [x] Mahoutsukai magic — *Ancient Magus' Bride*
+- [x] Magic of Sajou — *Witch Hat Atelier*
 - [ ] Made in Abyss curse / blessings
 - [ ] Magi — Solomon's wisdom + djinn equip
 - [ ] Lina Inverse spell-system — *Slayers* — chaos-tier spells

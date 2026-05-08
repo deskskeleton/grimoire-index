@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(git commit -m ' *)",
+      "Bash(npm install *)",
+      "Bash(npm info *)",
+      "Bash(findstr /R \"9\\\\.\")",
+      "Bash(git add *)",
+      "Bash(git push *)"
     ]
   }
 }
