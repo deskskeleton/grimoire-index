@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="About" description="About The Grimoire Index — methodology and editorial policy.">
+  <article class="max-w-2xl prose-content">
+    <h1 class="text-3xl mb-6">About</h1>
+
+    <p>
+      The Grimoire Index is a reference catalog of magic systems in fiction. Each entry analyzes how a system
+      works — its mechanics, its costs, who can use it, and how it functions in its story — and tags the system
+      across six independent taxonomy facets so it can be found by mechanism rather than just by name.
+    </p>
+
+    <h2>Why this exists</h2>
+    <p>
+      Magic systems are one of the most discussed elements of speculative fiction, but no comprehensive,
+      cross-franchise reference catalogs them in a structured way. Existing fan wikis cover individual universes
+      in depth; what's missing is a place to ask "show me every magic system with reciprocal-cost mechanics" or
+      "what's the equivalent of Sanderson's hard-magic approach in TTRPGs."
+    </p>
+
+    <h2>Editorial policy</h2>
+    <ul>
+      <li>
+        <strong>Original analysis only.</strong> Entries are written in our own words. We do not reproduce source
+        text, lyrics, or extended quotes.
+      </li>
+      <li>
+        <strong>Mechanism over mythology.</strong> If a fictional world calls its magic "divine gifts" but
+        mechanically it's an inherited genetic trait, it gets tagged as both. Tags reflect how the system
+        functions, not how its world describes it.
+      </li>
+      <li>
+        <strong>Spoiler discipline.</strong> Core mechanics are not spoilers. Plot reveals tied to a magic
+        system's nature are flagged when present.
+      </li>
+      <li>
+        <strong>Encyclopedic tone.</strong> We describe and analyze; we don't rank or rate. A system can be
+        called "unusual" or "notably constrained" but never "the best."
+      </li>
+      <li>
+        <strong>Designer commentary is cited.</strong> When a creator has publicly discussed their design
+        choices, we reference that with attribution.
+      </li>
+    </ul>
+
+    <h2>The taxonomy</h2>
+    <p>
+      We use six independent facets: <a href="/taxonomy">Systematization</a>, Source of Power, Cost Structure,
+      Scope of Effect, Narrative Function, and Practitioner Demographics. They are independent, not
+      hierarchical — most systems carry multiple tags within several facets.
+    </p>
+
+    <h2>Suggesting a system</h2>
+    <p>
+      Have a magic system we should add? Email <a href="mailto:hello@grimoire-index.example">hello@grimoire-index.example</a>{' '}
+      with the system name, the work it appears in, and a sentence on why it's interesting.
+    </p>
+  </article>
+</Layout>
+
+<style is:global>
+  .prose-content h2 { font-family: var(--font-sans); font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.75rem; }
+  .prose-content p { margin-bottom: 1rem; line-height: 1.7; }
+  .prose-content ul { list-style: disc; padding-left: 1.5rem; margin-bottom: 1rem; }
+  .prose-content li { margin-bottom: 0.5rem; }
+</style>

@@ -1,0 +1,59 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import SystemCard from '../../components/SystemCard.astro';
+
+export async function getStaticPaths() {
+  const universes = await getCollection('universes');
+  return universes.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const systems = await getCollection('systems');
+const universeSystems = systems
+  .filter((s) => s.data.universe === entry.id)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<Layout title={entry.data.name} description={entry.data.description}>
+  <article class="max-w-4xl">
+    <div class="text-xs font-sans uppercase tracking-wider text-[var(--color-muted)] mb-2">Universe</div>
+    <h1 class="text-4xl mb-2">{entry.data.name}</h1>
+    <div class="text-sm text-[var(--color-muted)] mb-6 font-sans">Created by {entry.data.creator}</div>
+    <p class="text-lg leading-relaxed mb-8">{entry.data.description}</p>
+
+    <div class="prose-content mb-10">
+      <Content />
+    </div>
+
+    <h2 class="font-sans text-sm uppercase tracking-wider text-[var(--color-muted)] mb-4">
+      Magic systems in this universe ({universeSystems.length})
+    </h2>
+    {universeSystems.length === 0 ? (
+      <p class="text-[var(--color-muted)]">No systems catalogued yet for this universe.</p>
+    ) : (
+      <div class="grid md:grid-cols-2 gap-4">
+        {universeSystems.map((s) => (
+          <SystemCard
+            slug={s.id}
+            name={s.data.name}
+            sourceWorks={s.data.sourceWorks}
+            summary={s.data.summary}
+            systematization={s.data.systematization}
+            medium={s.data.medium}
+          />
+        ))}
+      </div>
+    )}
+  </article>
+</Layout>
+
+<style is:global>
+  .prose-content h2 { font-family: var(--font-sans); font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.75rem; }
+  .prose-content p { margin-bottom: 1rem; }
+</style>

@@ -1,0 +1,19 @@
+---
+import { label } from '../lib/taxonomy';
+
+interface Props {
+  facet: string;
+  value: string;
+  size?: 'sm' | 'md';
+}
+
+const { facet, value, size = 'md' } = Astro.props;
+const sizeClass = size === 'sm' ? 'text-xs px-1.5 py-0.5' : 'text-sm px-2 py-1';
+---
+
+<a
+  href={`/taxonomy/${facet}/${value}`}
+  class={`inline-block ${sizeClass} rounded border border-[var(--color-rule)] dark:border-[var(--color-rule-dark)] bg-[var(--color-parchment)]/60 dark:bg-[var(--color-parchment-dark)]/60 font-sans !text-inherit !no-underline hover:!bg-[var(--color-accent-soft)]/30 transition-colors`}
+>
+  {label(value)}
+</a>

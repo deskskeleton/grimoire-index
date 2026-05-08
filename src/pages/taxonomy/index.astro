@@ -1,0 +1,48 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { FACETS, FACET_KEYS, label } from '../../lib/taxonomy';
+import { getCollection } from 'astro:content';
+
+const all = await getCollection('systems');
+
+function countForTag(facetKey: string, tag: string): number {
+  return all.filter((s) => {
+    const v = (s.data as any)[facetKey];
+    return Array.isArray(v) ? v.includes(tag) : v === tag;
+  }).length;
+}
+---
+
+<Layout title="Taxonomy" description="Six independent facets for classifying magic systems.">
+  <h1 class="text-3xl mb-2">Taxonomy</h1>
+  <p class="text-lg text-[var(--color-muted)] max-w-2xl mb-10 leading-relaxed">
+    No single way of classifying magic systems is correct. We use six independent facets that can be combined freely.
+    A system like Allomancy is simultaneously <em>hard</em>, <em>innate/genetic</em>, and <em>consumable/fuel</em>-driven.
+  </p>
+
+  <div class="space-y-10">
+    {FACET_KEYS.map((key) => {
+      const facet = FACETS[key];
+      return (
+        <section>
+          <h2 class="font-sans text-2xl mb-1">{facet.name}</h2>
+          <p class="text-sm text-[var(--color-muted)] mb-4">{facet.description}</p>
+          <div class="flex flex-wrap gap-2">
+            {facet.values.map((tag) => {
+              const count = countForTag(key, tag);
+              return (
+                <a
+                  href={`/taxonomy/${key}/${tag}`}
+                  class="px-3 py-1.5 text-sm font-sans border border-[var(--color-rule)] dark:border-[var(--color-rule-dark)] rounded !text-inherit !no-underline hover:border-[var(--color-accent)]"
+                >
+                  {label(tag)}
+                  <span class="ml-1.5 text-xs text-[var(--color-muted)]">{count}</span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      );
+    })}
+  </div>
+</Layout>

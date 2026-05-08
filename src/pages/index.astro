@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import SystemCard from '../components/SystemCard.astro';
+
+const allSystems = await getCollection('systems');
+const featured = allSystems.filter((s) => s.data.featured);
+const display = featured.length > 0 ? featured : allSystems.slice(0, 6);
+---
+
+<Layout title="The Grimoire Index">
+  <section class="mb-12 max-w-3xl">
+    <h1 class="text-4xl mb-4">A catalog of magic systems in fiction.</h1>
+    <p class="text-lg leading-relaxed text-[var(--color-muted)]">
+      Allomancy, the Force, Bending, alchemy, spell slots — every fictional system of magic, described and tagged
+      across multiple axes. Browse by mechanic, source of power, cost structure, or how rigidly the rules are defined.
+    </p>
+    <div class="mt-6 flex gap-3 font-sans">
+      <a
+        href="/browse"
+        class="inline-block px-4 py-2 bg-[var(--color-accent)] !text-[var(--color-parchment)] !no-underline rounded hover:opacity-90"
+      >
+        Browse all systems
+      </a>
+      <a
+        href="/taxonomy"
+        class="inline-block px-4 py-2 border border-[var(--color-rule)] dark:border-[var(--color-rule-dark)] !text-inherit !no-underline rounded hover:border-[var(--color-accent)]"
+      >
+        Explore taxonomy
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="font-sans text-sm uppercase tracking-wider text-[var(--color-muted)] mb-4">
+      {featured.length > 0 ? 'Featured systems' : 'All systems'}
+    </h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {display.map((s) => (
+        <SystemCard
+          slug={s.id}
+          name={s.data.name}
+          sourceWorks={s.data.sourceWorks}
+          summary={s.data.summary}
+          systematization={s.data.systematization}
+          medium={s.data.medium}
+        />
+      ))}
+    </div>
+  </section>
+</Layout>

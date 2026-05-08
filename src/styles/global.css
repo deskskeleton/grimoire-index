@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: 'Iowan Old Style', 'Palatino', 'Georgia', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --color-ink: #1a1814;
+  --color-parchment: #f6f1e7;
+  --color-rule: #d8cdb6;
+  --color-muted: #6b6356;
+  --color-accent: #8b1e1e;
+  --color-accent-soft: #c79a3a;
+
+  --color-ink-dark: #ece6d6;
+  --color-parchment-dark: #1a1814;
+  --color-rule-dark: #3a342a;
+  --color-muted-dark: #998c75;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-parchment);
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html {
+      background-color: var(--color-parchment-dark);
+      color: var(--color-ink-dark);
+    }
+  }
+
+  body {
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  a {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+  }
+
+  a:hover {
+    text-decoration-thickness: 2px;
+  }
+
+  code {
+    font-family: 'SF Mono', 'Consolas', monospace;
+    font-size: 0.9em;
+  }
+}

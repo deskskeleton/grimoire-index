@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import SystemCard from '../../../components/SystemCard.astro';
+import { FACETS, FACET_KEYS, label } from '../../../lib/taxonomy';
+
+export async function getStaticPaths() {
+  const paths: { params: { facet: string; tag: string } }[] = [];
+  for (const key of FACET_KEYS) {
+    for (const tag of FACETS[key].values) {
+      paths.push({ params: { facet: key, tag } });
+    }
+  }
+  return paths;
+}
+
+const { facet, tag } = Astro.params;
+const facetDef = FACETS[facet as keyof typeof FACETS];
+const all = await getCollection('systems');
+const matches = all
+  .filter((s) => {
+    const v = (s.data as any)[facet];
+    return Array.isArray(v) ? v.includes(tag) : v === tag;
+  })
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<Layout title={`${label(tag!)} — ${facetDef.name}`} description={`Magic systems tagged ${label(tag!)}.`}>
+  <div class="text-xs font-sans uppercase tracking-wider text-[var(--color-muted)] mb-2">
+    <a href="/taxonomy">Taxonomy</a> · {facetDef.name}
+  </div>
+  <h1 class="text-3xl mb-2">{label(tag!)}</h1>
+  <p class="text-[var(--color-muted)] mb-8">{facetDef.description}</p>
+
+  {matches.length === 0 ? (
+    <p class="text-[var(--color-muted)]">No systems with this tag yet.</p>
+  ) : (
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {matches.map((s) => (
+        <SystemCard
+          slug={s.id}
+          name={s.data.name}
+          sourceWorks={s.data.sourceWorks}
+          summary={s.data.summary}
+          systematization={s.data.systematization}
+          medium={s.data.medium}
+        />
+      ))}
+    </div>
+  )}
+</Layout>

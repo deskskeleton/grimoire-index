@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import FilterPanel, { type SystemEntry } from '../components/FilterPanel';
+
+const all = await getCollection('systems');
+const entries: SystemEntry[] = all
+  .map((s) => ({
+    slug: s.id,
+    name: s.data.name,
+    sourceWorks: s.data.sourceWorks,
+    summary: s.data.summary,
+    medium: s.data.medium,
+    systematization: s.data.systematization,
+    sourceOfPower: s.data.sourceOfPower,
+    costStructure: s.data.costStructure,
+    scopeOfEffect: s.data.scopeOfEffect,
+    narrativeFunction: s.data.narrativeFunction,
+    practitionerDemographics: s.data.practitionerDemographics,
+    activationConduit: s.data.activationConduit,
+    reversibility: s.data.reversibility,
+    detectability: s.data.detectability,
+    scaleRange: s.data.scaleRange,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Layout title="Browse" description="Browse and filter all magic systems by taxonomy facets.">
+  <h1 class="text-3xl mb-6">Browse</h1>
+  <FilterPanel client:load entries={entries} />
+</Layout>

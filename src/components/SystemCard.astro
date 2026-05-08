@@ -1,0 +1,30 @@
+---
+import { label } from '../lib/taxonomy';
+
+interface Props {
+  slug: string;
+  name: string;
+  sourceWorks: string[];
+  summary: string;
+  systematization: string;
+  medium: string[];
+}
+
+const { slug, name, sourceWorks, summary, systematization, medium } = Astro.props;
+---
+
+<a
+  href={`/systems/${slug}`}
+  class="block p-5 border border-[var(--color-rule)] dark:border-[var(--color-rule-dark)] rounded hover:border-[var(--color-accent)] transition-colors !no-underline !text-inherit"
+>
+  <div class="flex items-baseline justify-between gap-3 mb-1">
+    <h3 class="text-lg">{name}</h3>
+    <span class="text-xs text-[var(--color-muted)] font-sans uppercase tracking-wide whitespace-nowrap">
+      {label(systematization)}
+    </span>
+  </div>
+  <div class="text-xs text-[var(--color-muted)] mb-3 font-sans">
+    {sourceWorks.join(' · ')} · {medium.map(label).join(', ')}
+  </div>
+  <p class="text-sm leading-relaxed">{summary}</p>
+</a>

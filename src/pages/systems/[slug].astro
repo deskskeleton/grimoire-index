@@ -1,0 +1,144 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import TaxonomyBadge from '../../components/TaxonomyBadge.astro';
+import { FACETS, FACET_KEYS, label } from '../../lib/taxonomy';
+
+export async function getStaticPaths() {
+  const systems = await getCollection('systems');
+  return systems.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const data = entry.data;
+
+const allSystems = await getCollection('systems');
+const siblings = data.universe
+  ? allSystems.filter((s) => s.id !== entry.id && s.data.universe === data.universe)
+  : [];
+const similar = data.similarSystems
+  .map((slug) => allSystems.find((s) => s.id === slug))
+  .filter((s): s is NonNullable<typeof s> => Boolean(s));
+---
+
+<Layout title={data.name} description={data.summary}>
+  <article class="max-w-3xl">
+    <div class="text-xs font-sans uppercase tracking-wider text-[var(--color-muted)] mb-2">
+      {data.universe ? (
+        <a href={`/universes/${data.universe}`}>{data.universe.replace(/-/g, ' ')}</a>
+      ) : (
+        <span>{data.creator}</span>
+      )}
+      {' · '}{data.yearIntroduced}{' · '}{data.medium.map(label).join(', ')}
+    </div>
+
+    <h1 class="text-4xl mb-2">{data.name}</h1>
+    {data.aliases.length > 0 && (
+      <div class="text-sm text-[var(--color-muted)] mb-4 font-sans">Also known as: {data.aliases.join(', ')}</div>
+    )}
+
+    <p class="text-lg leading-relaxed mb-8">{data.summary}</p>
+
+    <div class="border-t border-[var(--color-rule)] dark:border-[var(--color-rule-dark)] pt-6 mb-8">
+      <h2 class="font-sans text-sm uppercase tracking-wider text-[var(--color-muted)] mb-4">Taxonomy</h2>
+      <dl class="grid sm:grid-cols-[180px_1fr] gap-x-4 gap-y-3 text-sm">
+        {FACET_KEYS.map((key) => {
+          const facet = FACETS[key];
+          const value = (data as any)[key];
+          const values = Array.isArray(value) ? value : [value];
+          return (
+            <>
+              <dt class="font-sans text-[var(--color-muted)]">{facet.name}</dt>
+              <dd class="flex flex-wrap gap-1.5">
+                {values.map((v: string) => <TaxonomyBadge facet={key} value={v} size="sm" />)}
+              </dd>
+            </>
+          );
+        })}
+      </dl>
+    </div>
+
+    <div class="prose-content">
+      <Content />
+    </div>
+
+    {data.notablePractitioners.length > 0 && (
+      <div class="mt-8">
+        <h2 class="font-sans text-base font-semibold mb-2">Notable practitioners</h2>
+        <p class="text-sm">{data.notablePractitioners.join(', ')}</p>
+      </div>
+    )}
+
+    {data.designersNotes && (
+      <div class="mt-8 pl-4 border-l-2 border-[var(--color-accent-soft)] text-sm italic text-[var(--color-muted)]">
+        <strong class="not-italic font-sans text-xs uppercase tracking-wider block mb-1">Designer's notes</strong>
+        {data.designersNotes}
+      </div>
+    )}
+
+    {(siblings.length > 0 || similar.length > 0) && (
+      <div class="mt-12 border-t border-[var(--color-rule)] dark:border-[var(--color-rule-dark)] pt-6">
+        {siblings.length > 0 && (
+          <div class="mb-6">
+            <h2 class="font-sans text-sm uppercase tracking-wider text-[var(--color-muted)] mb-3">
+              Sibling systems in {data.universe?.replace(/-/g, ' ')}
+            </h2>
+            <ul class="space-y-1">
+              {siblings.map((s) => (
+                <li><a href={`/systems/${s.id}`}>{s.data.name}</a> — <span class="text-sm text-[var(--color-muted)]">{s.data.summary}</span></li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {similar.length > 0 && (
+          <div>
+            <h2 class="font-sans text-sm uppercase tracking-wider text-[var(--color-muted)] mb-3">Similar systems elsewhere</h2>
+            <ul class="space-y-1">
+              {similar.map((s) => (
+                <li><a href={`/systems/${s.id}`}>{s.data.name}</a> — <span class="text-sm text-[var(--color-muted)]">{s.data.sourceWorks.join(', ')}</span></li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    )}
+  </article>
+</Layout>
+
+<style is:global>
+  .prose-content h2 {
+    font-family: var(--font-sans);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-content h3 {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .prose-content p {
+    margin-bottom: 1rem;
+  }
+  .prose-content ul, .prose-content ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  .prose-content ul { list-style: disc; }
+  .prose-content ol { list-style: decimal; }
+  .prose-content li { margin-bottom: 0.25rem; }
+  .prose-content blockquote {
+    border-left: 3px solid var(--color-accent-soft);
+    padding-left: 1rem;
+    font-style: italic;
+    color: var(--color-muted);
+    margin: 1rem 0;
+  }
+</style>
