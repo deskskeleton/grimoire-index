@@ -467,26 +467,26 @@ What to avoid:
 - [x] Promethean: The Created — Transmutations
 
 ### Other major TTRPGs
-- [ ] Shadowrun — Awakened Magic (Hermetic, Shamanic), Adept powers, Technomancy
-- [ ] Call of Cthulhu — Mythos magic, Sanity-cost spells
-- [ ] Trail of Cthulhu — variant
-- [ ] RuneQuest — Glorantha runes, Common/Spirit/Rune/Sorcery magic
-- [ ] HeroQuest / QuestWorlds — narrative resolution
-- [ ] Pendragon — passions + lady's blessings
-- [ ] Burning Wheel — Sorcery, Faith, the Roden, Spirit Binding
+- [x] Shadowrun — Awakened Magic (Hermetic, Shamanic), Adept powers, Technomancy
+- [x] Call of Cthulhu — Mythos magic, Sanity-cost spells
+- [x] Trail of Cthulhu — consolidated into Mythos Magic entry
+- [x] RuneQuest — Glorantha runes, Common/Spirit/Rune/Sorcery magic
+- [x] HeroQuest / QuestWorlds — consolidated into Gloranthan Magic entry
+- [x] Pendragon — passions + lady's blessings
+- [x] Burning Wheel — Sorcery, Faith, the Roden, Spirit Binding
 - [ ] Mouse Guard — (no magic — skip)
-- [ ] Apocalypse World — psychic maelstrom
-- [ ] Dungeon World — spell-as-move
+- [x] Apocalypse World — psychic maelstrom
+- [x] Dungeon World — consolidated into Psychic Maelstrom entry
 - [ ] Monsterhearts — sex-magic / Skin teen powers
 - [ ] Masks — supers' powers as PbtA
 - [ ] Lancer — (no magic — skip)
-- [ ] Numenera — cyphers, Onslaught, etc.
-- [ ] 13th Age — Icon relationships, spell levels
+- [x] Numenera — cyphers, Onslaught, etc.
+- [x] 13th Age — Icon relationships, spell levels
 - [ ] GURPS Magic — point-buy spell catalogue
 - [ ] Genesys / Star Wars Force-Powers
 - [ ] HARN — religion-bound magic
-- [ ] Earthdawn — Talents, threads, pattern items
-- [ ] Exalted — Charms + Essence
+- [x] Earthdawn — Talents, threads, pattern items
+- [x] Exalted — Charms + Essence
 - [ ] L5R — Shugenja kiho/spells, Void
 - [ ] Warhammer Fantasy / WFRP — Winds of Magic / Petty/Lesser/Greater
 - [ ] Warhammer 40K — Psychic powers, Sorcery, Faith
