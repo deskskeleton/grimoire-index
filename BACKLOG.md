@@ -394,27 +394,27 @@ What to avoid:
 - [x] Lina Inverse spell-system — *Slayers* — chaos-tier spells
 - [x] To Aru psionics + magic side
 - [x] Tower of God shinsu
-- [ ] Soul Society Kido — *Bleach* (sub-system)
-- [ ] Inuyasha — yokai abilities, holy power
-- [ ] CLAMP — Cardcaptor cards / Sakura's powers
-- [ ] CLAMP — xxxHOLiC space-shop bargains
-- [ ] Sailor Moon — Crystal/Sailor power
+- [x] Soul Society Kido — *Bleach* (sub-system)
+- [x] Inuyasha — yokai abilities, holy power
+- [x] CLAMP — Cardcaptor cards / Sakura's powers
+- [x] CLAMP — xxxHOLiC space-shop bargains
+- [x] Sailor Moon — Crystal/Sailor power
 - [ ] PreCure transformations
 - [x] Mob Psycho 100 — psychic-as-emotional-pressure
 - [ ] One Punch Man — (no magic — skip)
-- [ ] Hellsing — vampire abilities + Hellsing Organization rituals
-- [ ] D. Gray-man — Innocence (anti-Akuma weapons)
-- [ ] Fairy Tail — guild-based elemental magic
+- [x] Hellsing — vampire abilities + Hellsing Organization rituals
+- [x] D. Gray-man — Innocence (anti-Akuma weapons)
+- [x] Fairy Tail — guild-based elemental magic
 - [ ] Edens Zero — Ether Gear
 - [ ] Rave Master — Ten Commandments
 - [ ] The Eminence in Shadow — slime-magic
-- [ ] Konosuba — class spells (parodic)
+- [x] Konosuba — class spells (parodic)
 - [ ] No Game No Life — game-rules-as-cosmic-law (Ten Pledges)
 - [ ] Toriko — Appetite Energy
 - [x] Bungou Stray Dogs — author-named abilities
 - [ ] Akame ga Kill — Imperial Arms (artifact-bound)
 - [ ] Re:Creators — Created abilities
-- [ ] Mushishi — Mushi (proto-life ecology)
+- [x] Mushishi — Mushi (proto-life ecology)
 - [ ] Natsume's Book of Friends — yokai pact magic
 - [ ] Kemono Jihen — yokai/ayakashi powers
 - [x] Jigokuraku — Tao / yang-yin alchemy + immortality elixirs
