@@ -399,24 +399,24 @@ What to avoid:
 - [x] CLAMP — Cardcaptor cards / Sakura's powers
 - [x] CLAMP — xxxHOLiC space-shop bargains
 - [x] Sailor Moon — Crystal/Sailor power
-- [ ] PreCure transformations
+- [x] PreCure transformations
 - [x] Mob Psycho 100 — psychic-as-emotional-pressure
 - [ ] One Punch Man — (no magic — skip)
 - [x] Hellsing — vampire abilities + Hellsing Organization rituals
 - [x] D. Gray-man — Innocence (anti-Akuma weapons)
 - [x] Fairy Tail — guild-based elemental magic
-- [ ] Edens Zero — Ether Gear
-- [ ] Rave Master — Ten Commandments
-- [ ] The Eminence in Shadow — slime-magic
+- [x] Edens Zero — Ether Gear
+- [x] Rave Master — Ten Commandments
+- [x] The Eminence in Shadow — slime-magic
 - [x] Konosuba — class spells (parodic)
-- [ ] No Game No Life — game-rules-as-cosmic-law (Ten Pledges)
-- [ ] Toriko — Appetite Energy
+- [x] No Game No Life — game-rules-as-cosmic-law (Ten Pledges)
+- [x] Toriko — Appetite Energy
 - [x] Bungou Stray Dogs — author-named abilities
-- [ ] Akame ga Kill — Imperial Arms (artifact-bound)
-- [ ] Re:Creators — Created abilities
+- [x] Akame ga Kill — Imperial Arms (artifact-bound)
+- [x] Re:Creators — Created abilities
 - [x] Mushishi — Mushi (proto-life ecology)
-- [ ] Natsume's Book of Friends — yokai pact magic
-- [ ] Kemono Jihen — yokai/ayakashi powers
+- [x] Natsume's Book of Friends — yokai pact magic
+- [x] Kemono Jihen — yokai/ayakashi powers
 - [x] Jigokuraku — Tao / yang-yin alchemy + immortality elixirs
 - [x] Dorohedoro — sorcerers' Magic + smoke
 - [x] Puella Magi Madoka Magica — wish-contract soul gem magic
