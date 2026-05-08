@@ -389,18 +389,18 @@ What to avoid:
 - [x] Spirits / Authority of Sloth — *Re:Zero*
 - [x] Mahoutsukai magic — *Ancient Magus' Bride*
 - [x] Magic of Sajou — *Witch Hat Atelier*
-- [ ] Made in Abyss curse / blessings
-- [ ] Magi — Solomon's wisdom + djinn equip
-- [ ] Lina Inverse spell-system — *Slayers* — chaos-tier spells
-- [ ] To Aru psionics + magic side
-- [ ] Tower of God shinsu
+- [x] Made in Abyss curse / blessings
+- [x] Magi — Solomon's wisdom + djinn equip
+- [x] Lina Inverse spell-system — *Slayers* — chaos-tier spells
+- [x] To Aru psionics + magic side
+- [x] Tower of God shinsu
 - [ ] Soul Society Kido — *Bleach* (sub-system)
 - [ ] Inuyasha — yokai abilities, holy power
 - [ ] CLAMP — Cardcaptor cards / Sakura's powers
 - [ ] CLAMP — xxxHOLiC space-shop bargains
 - [ ] Sailor Moon — Crystal/Sailor power
 - [ ] PreCure transformations
-- [ ] Mob Psycho 100 — psychic-as-emotional-pressure
+- [x] Mob Psycho 100 — psychic-as-emotional-pressure
 - [ ] One Punch Man — (no magic — skip)
 - [ ] Hellsing — vampire abilities + Hellsing Organization rituals
 - [ ] D. Gray-man — Innocence (anti-Akuma weapons)
@@ -411,15 +411,15 @@ What to avoid:
 - [ ] Konosuba — class spells (parodic)
 - [ ] No Game No Life — game-rules-as-cosmic-law (Ten Pledges)
 - [ ] Toriko — Appetite Energy
-- [ ] Bungou Stray Dogs — author-named abilities
+- [x] Bungou Stray Dogs — author-named abilities
 - [ ] Akame ga Kill — Imperial Arms (artifact-bound)
 - [ ] Re:Creators — Created abilities
 - [ ] Mushishi — Mushi (proto-life ecology)
 - [ ] Natsume's Book of Friends — yokai pact magic
 - [ ] Kemono Jihen — yokai/ayakashi powers
-- [ ] Jigokuraku — Tao / yang-yin alchemy + immortality elixirs
-- [ ] Dorohedoro — sorcerers' Magic + smoke
-- [ ] Puella Magi Madoka Magica — wish-contract soul gem magic
+- [x] Jigokuraku — Tao / yang-yin alchemy + immortality elixirs
+- [x] Dorohedoro — sorcerers' Magic + smoke
+- [x] Puella Magi Madoka Magica — wish-contract soul gem magic
 
 ---
 
