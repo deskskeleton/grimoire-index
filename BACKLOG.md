@@ -477,30 +477,30 @@ What to avoid:
 - [ ] Mouse Guard — (no magic — skip)
 - [x] Apocalypse World — psychic maelstrom
 - [x] Dungeon World — consolidated into Psychic Maelstrom entry
-- [ ] Monsterhearts — sex-magic / Skin teen powers
-- [ ] Masks — supers' powers as PbtA
+- [x] Monsterhearts — sex-magic / Skin teen powers
+- [x] Masks — consolidated into Skin Powers entry
 - [ ] Lancer — (no magic — skip)
 - [x] Numenera — cyphers, Onslaught, etc.
 - [x] 13th Age — Icon relationships, spell levels
-- [ ] GURPS Magic — point-buy spell catalogue
-- [ ] Genesys / Star Wars Force-Powers
+- [x] GURPS Magic — point-buy spell catalogue
+- [x] Genesys / Star Wars Force-Powers
 - [ ] HARN — religion-bound magic
 - [x] Earthdawn — Talents, threads, pattern items
 - [x] Exalted — Charms + Essence
-- [ ] L5R — Shugenja kiho/spells, Void
-- [ ] Warhammer Fantasy / WFRP — Winds of Magic / Petty/Lesser/Greater
-- [ ] Warhammer 40K — Psychic powers, Sorcery, Faith
-- [ ] Dark Heresy / Wrath & Glory — 40K psyker
-- [ ] Blades in the Dark — Whispers + ghost-field
-- [ ] Band of Blades — Chosen miracles
+- [x] L5R — Shugenja kiho/spells, Void
+- [x] Warhammer Fantasy / WFRP — Winds of Magic / Petty/Lesser/Greater
+- [x] Warhammer 40K — Psychic powers, Sorcery, Faith
+- [x] Dark Heresy / Wrath & Glory — consolidated into 40K Psychic Powers entry
+- [x] Blades in the Dark — Whispers + ghost-field
+- [x] Band of Blades — consolidated into Ghost-Field Magic entry
 - [ ] Scum and Villainy — (mostly tech)
 - [ ] Mage Knight (board) — already noted
-- [ ] Spirit Island (board) — innate powers
+- [x] Spirit Island (board) — innate powers
 - [ ] Gloomhaven — class-specific abilities (semi-magical)
-- [ ] Magic: The Gathering — color-pie magic-as-game-system
-- [ ] Mörk Borg / Pirate Borg — class spell tables
-- [ ] Lamentations of the Flame Princess — gritty magical-research approach
-- [ ] OSE / OSR magic — same Vancian foundation, but worth noting variants
+- [x] Magic: The Gathering — color-pie magic-as-game-system
+- [x] Mörk Borg / Pirate Borg — class spell tables
+- [x] Lamentations of the Flame Princess — consolidated into OSR Doom Magic entry
+- [x] OSE / OSR magic — consolidated into OSR Doom Magic entry
 - [ ] Mausritter — (mostly mundane, has rituals)
 - [ ] Mothership — (SF horror — skip)
 - [?] Witcher TRPG — tied to Sapkowski
