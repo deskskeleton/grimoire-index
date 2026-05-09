@@ -533,17 +533,17 @@ What to avoid:
 - [x] Hollow Knight — Spells + Charms + Soul
 - [x] Persona / SMT — Personas, demon negotiation, Magatsuhi
 - [x] Dragon Quest — vocations, spells (Heal, Frizz, Crack, Woosh)
-- [ ] Tales of (series) — artes
-- [ ] Trails / Kiseki — Orbal arts (quartz-driven)
+- [x] Tales of (series) — artes
+- [x] Trails / Kiseki — Orbal arts (quartz-driven)
 - [ ] Star Ocean — symbology
 - [x] Mass Effect — Biotics (semi-SF, but functions as magic)
 - [ ] Ys — magic varies by entry
-- [ ] Disgaea — magichange / spell tiers
+- [x] Disgaea — magichange / spell tiers
 - [x] Fire Emblem — anima/light/dark/staves, dragonstones
 - [ ] Phantasy Star — Tech / Photon arts
 - [x] Suikoden — Rune magic
 - [x] Chrono Trigger — element-based magic by character
-- [ ] Earthbound / Mother — PSI
+- [x] Earthbound / Mother — PSI
 - [x] Pokémon — type-based moves (semi-magical creature abilities)
 
 ### Action / Indie / Other
@@ -551,7 +551,7 @@ What to avoid:
 - [x] Noita — pixel-physics wand-craft
 - [x] Dishonored — Outsider's Mark, Void powers
 - [x] BioShock / Infinite — Plasmids / Vigors / Tears
-- [ ] Prey (2017) — Typhon abilities
+- [x] Prey (2017) — Typhon abilities
 - [x] Control — Hiss / Objects of Power
 - [x] Hades / Hades II — Olympian boons
 - [ ] Cult of the Lamb — crown magic + tarot
@@ -564,13 +564,13 @@ What to avoid:
 - [ ] Death's Door — soul-reaper magic
 - [x] God of War — Spartan rage / Norse runes
 - [x] Zelda magic — Sheikah tech, Sage powers, Zonai constructs, Triforce, spells (Din/Nayru/Farore)
-- [ ] Wizardry / Might & Magic — class spell lists
-- [ ] Ultima — Eight Virtues + reagent spells
+- [x] Wizardry / Might & Magic — class spell lists
+- [x] Ultima — Eight Virtues + reagent spells
 - [ ] Arx Fatalis — gesture-drawn runes
 - [ ] Black & White — gesture-drawn god magic
-- [ ] Eternal Darkness — Three-rune Tome of Eternal Darkness
+- [x] Eternal Darkness — Three-rune Tome of Eternal Darkness
 - [ ] Outward — runic + sigils + alchemy
-- [ ] Caves of Qud — Mutations, psionics, cybernetics + faith
+- [x] Caves of Qud — Mutations, psionics, cybernetics + faith
 - [ ] Stellaris — Psionic ascension (SF, but magic-coded)
 - [ ] Crusader Kings 3 — supernatural events / occult bloodlines
 - [ ] Nethack — D&D-derived spells + alchemy
@@ -578,7 +578,7 @@ What to avoid:
 - [ ] Rimworld — Royalty psycasts + Anomaly entities
 - [ ] Don't Starve — magic vs science crafting tabs
 - [ ] Stardew Valley — junimo + wizard
-- [ ] Disco Elysium — Inland Empire (psychic-coded skill)
+- [x] Disco Elysium — Inland Empire (psychic-coded skill)
 
 ---
 
