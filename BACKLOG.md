@@ -513,22 +513,22 @@ What to avoid:
 - [x] The Elder Scrolls — Schools of Magic (Destruction, Restoration, Alteration, Illusion, Conjuration, Mysticism)
 - [x] Skyrim Thu'um — Shouts as language-magic
 - [x] FF7 Materia (Job/Esper/GF/Magicite/Blue Magic from other FF entries deferred)
-- [ ] Dragon Age — Mage spells, Blood Magic, Spirit Healer, Reaver
+- [x] Dragon Age — Mage spells, Blood Magic, Spirit Healer, Reaver
 - [x] Witcher Signs — Aard, Igni, Quen, Yrden, Axii (alchemy + mutagens deferred to separate entries)
-- [ ] Dark Souls — Sorcery, Miracles, Pyromancy, Hexes
-- [ ] Demon's Souls — Magic / Miracles, World Tendency
-- [ ] Bloodborne — Blood arts, insight, Hunter's tools (semi-magic)
-- [ ] Elden Ring — Sorceries, Incantations, Ashes of War
-- [ ] Pillars of Eternity — Soul magic (Wizard, Priest, Druid, Cipher, Chanter)
-- [ ] Tyranny — Spell-crafting (Sigils + Expressions + Accents)
-- [ ] Divinity: Original Sin — Elemental synergies, Source
+- [x] Dark Souls — Sorcery, Miracles, Pyromancy, Hexes
+- [x] Demon's Souls — consolidated into Souls Magic entry
+- [x] Bloodborne — Blood arts, insight, Hunter's tools (semi-magic)
+- [x] Elden Ring — Sorceries, Incantations, Ashes of War
+- [x] Pillars of Eternity — Soul magic (Wizard, Priest, Druid, Cipher, Chanter)
+- [x] Tyranny — Spell-crafting (Sigils + Expressions + Accents)
+- [x] Divinity: Original Sin — Elemental synergies, Source
 - [ ] Baldur's Gate / NWN — D&D-derived
-- [ ] Diablo — Sorcerer / Necromancer / Witch Doctor / etc.
-- [ ] Path of Exile — Skill gems + support gems
+- [x] Diablo — Sorcerer / Necromancer / Witch Doctor / etc.
+- [x] Path of Exile — Skill gems + support gems
 - [ ] WoW — class spell systems (Mage, Warlock, Priest, Paladin, Druid, Shaman)
 - [ ] Guild Wars 2 — elementalist attunement, necromancer, mesmer
 - [ ] FFXIV — Job spells + jobs as fictional traditions
-- [ ] Genshin Impact — Visions / Elements + reactions
+- [x] Genshin Impact — Visions / Elements + reactions
 - [ ] Honkai: Star Rail — Paths + Aeons
 - [ ] Hollow Knight — Spells + Charms + Soul
 - [ ] Persona / SMT — Personas, demon negotiation, Magatsuhi
