@@ -526,44 +526,44 @@ What to avoid:
 - [x] Diablo — Sorcerer / Necromancer / Witch Doctor / etc.
 - [x] Path of Exile — Skill gems + support gems
 - [x] WoW — class spell systems (Mage, Warlock, Priest, Paladin, Druid, Shaman)
-- [ ] Guild Wars 2 — elementalist attunement, necromancer, mesmer
+- [x] Guild Wars 2 — elementalist attunement, necromancer, mesmer
 - [x] FFXIV — Job spells + jobs as fictional traditions
 - [x] Genshin Impact — Visions / Elements + reactions
-- [ ] Honkai: Star Rail — Paths + Aeons
+- [x] Honkai: Star Rail — Paths + Aeons
 - [x] Hollow Knight — Spells + Charms + Soul
 - [x] Persona / SMT — Personas, demon negotiation, Magatsuhi
-- [ ] Dragon Quest — vocations, spells (Heal, Frizz, Crack, Woosh)
+- [x] Dragon Quest — vocations, spells (Heal, Frizz, Crack, Woosh)
 - [ ] Tales of (series) — artes
 - [ ] Trails / Kiseki — Orbal arts (quartz-driven)
 - [ ] Star Ocean — symbology
 - [x] Mass Effect — Biotics (semi-SF, but functions as magic)
 - [ ] Ys — magic varies by entry
 - [ ] Disgaea — magichange / spell tiers
-- [ ] Fire Emblem — anima/light/dark/staves, dragonstones
+- [x] Fire Emblem — anima/light/dark/staves, dragonstones
 - [ ] Phantasy Star — Tech / Photon arts
-- [ ] Suikoden — Rune magic
+- [x] Suikoden — Rune magic
 - [x] Chrono Trigger — element-based magic by character
 - [ ] Earthbound / Mother — PSI
 - [x] Pokémon — type-based moves (semi-magical creature abilities)
 
 ### Action / Indie / Other
 - [x] Magicka — element-combination spell system
-- [ ] Noita — pixel-physics wand-craft
+- [x] Noita — pixel-physics wand-craft
 - [x] Dishonored — Outsider's Mark, Void powers
 - [x] BioShock / Infinite — Plasmids / Vigors / Tears
 - [ ] Prey (2017) — Typhon abilities
-- [ ] Control — Hiss / Objects of Power
+- [x] Control — Hiss / Objects of Power
 - [x] Hades / Hades II — Olympian boons
 - [ ] Cult of the Lamb — crown magic + tarot
-- [ ] Slay the Spire — class card frameworks (mechanics-as-magic)
+- [x] Slay the Spire — class card frameworks (mechanics-as-magic)
 - [ ] Inscryption — sigil/totem deck-magic
 - [ ] Wildermyth — fictional comic-book magic
 - [ ] Spiritfarer — (limited)
 - [ ] Kena: Bridge of Spirits — Rot bond + spirit weapons
 - [ ] Tunic — fox-ruins inscrutable magic
 - [ ] Death's Door — soul-reaper magic
-- [ ] God of War — Spartan rage / Norse runes
-- [ ] Zelda magic — Sheikah tech, Sage powers, Zonai constructs, Triforce, spells (Din/Nayru/Farore)
+- [x] God of War — Spartan rage / Norse runes
+- [x] Zelda magic — Sheikah tech, Sage powers, Zonai constructs, Triforce, spells (Din/Nayru/Farore)
 - [ ] Wizardry / Might & Magic — class spell lists
 - [ ] Ultima — Eight Virtues + reagent spells
 - [ ] Arx Fatalis — gesture-drawn runes
