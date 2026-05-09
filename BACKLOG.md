@@ -525,35 +525,35 @@ What to avoid:
 - [ ] Baldur's Gate / NWN — D&D-derived
 - [x] Diablo — Sorcerer / Necromancer / Witch Doctor / etc.
 - [x] Path of Exile — Skill gems + support gems
-- [ ] WoW — class spell systems (Mage, Warlock, Priest, Paladin, Druid, Shaman)
+- [x] WoW — class spell systems (Mage, Warlock, Priest, Paladin, Druid, Shaman)
 - [ ] Guild Wars 2 — elementalist attunement, necromancer, mesmer
-- [ ] FFXIV — Job spells + jobs as fictional traditions
+- [x] FFXIV — Job spells + jobs as fictional traditions
 - [x] Genshin Impact — Visions / Elements + reactions
 - [ ] Honkai: Star Rail — Paths + Aeons
-- [ ] Hollow Knight — Spells + Charms + Soul
-- [ ] Persona / SMT — Personas, demon negotiation, Magatsuhi
+- [x] Hollow Knight — Spells + Charms + Soul
+- [x] Persona / SMT — Personas, demon negotiation, Magatsuhi
 - [ ] Dragon Quest — vocations, spells (Heal, Frizz, Crack, Woosh)
 - [ ] Tales of (series) — artes
 - [ ] Trails / Kiseki — Orbal arts (quartz-driven)
 - [ ] Star Ocean — symbology
-- [ ] Mass Effect — Biotics (semi-SF, but functions as magic)
+- [x] Mass Effect — Biotics (semi-SF, but functions as magic)
 - [ ] Ys — magic varies by entry
 - [ ] Disgaea — magichange / spell tiers
 - [ ] Fire Emblem — anima/light/dark/staves, dragonstones
 - [ ] Phantasy Star — Tech / Photon arts
 - [ ] Suikoden — Rune magic
-- [ ] Chrono Trigger — element-based magic by character
+- [x] Chrono Trigger — element-based magic by character
 - [ ] Earthbound / Mother — PSI
-- [ ] Pokémon — type-based moves (semi-magical creature abilities)
+- [x] Pokémon — type-based moves (semi-magical creature abilities)
 
 ### Action / Indie / Other
-- [ ] Magicka — element-combination spell system
+- [x] Magicka — element-combination spell system
 - [ ] Noita — pixel-physics wand-craft
 - [x] Dishonored — Outsider's Mark, Void powers
-- [ ] BioShock / Infinite — Plasmids / Vigors / Tears
+- [x] BioShock / Infinite — Plasmids / Vigors / Tears
 - [ ] Prey (2017) — Typhon abilities
 - [ ] Control — Hiss / Objects of Power
-- [ ] Hades / Hades II — Olympian boons
+- [x] Hades / Hades II — Olympian boons
 - [ ] Cult of the Lamb — crown magic + tarot
 - [ ] Slay the Spire — class card frameworks (mechanics-as-magic)
 - [ ] Inscryption — sigil/totem deck-magic
