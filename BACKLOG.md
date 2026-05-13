@@ -535,7 +535,7 @@ What to avoid:
 - [x] Dragon Quest — vocations, spells (Heal, Frizz, Crack, Woosh)
 - [x] Tales of (series) — artes
 - [x] Trails / Kiseki — Orbal arts (quartz-driven)
-- [ ] Star Ocean — symbology
+- [x] Star Ocean — symbology
 - [x] Mass Effect — Biotics (semi-SF, but functions as magic)
 - [ ] Ys — magic varies by entry
 - [x] Disgaea — magichange / spell tiers
@@ -554,9 +554,9 @@ What to avoid:
 - [x] Prey (2017) — Typhon abilities
 - [x] Control — Hiss / Objects of Power
 - [x] Hades / Hades II — Olympian boons
-- [ ] Cult of the Lamb — crown magic + tarot
+- [x] Cult of the Lamb — crown magic + tarot
 - [x] Slay the Spire — class card frameworks (mechanics-as-magic)
-- [ ] Inscryption — sigil/totem deck-magic
+- [x] Inscryption — sigil/totem deck-magic
 - [ ] Wildermyth — fictional comic-book magic
 - [ ] Spiritfarer — (limited)
 - [ ] Kena: Bridge of Spirits — Rot bond + spirit weapons
@@ -566,17 +566,17 @@ What to avoid:
 - [x] Zelda magic — Sheikah tech, Sage powers, Zonai constructs, Triforce, spells (Din/Nayru/Farore)
 - [x] Wizardry / Might & Magic — class spell lists
 - [x] Ultima — Eight Virtues + reagent spells
-- [ ] Arx Fatalis — gesture-drawn runes
-- [ ] Black & White — gesture-drawn god magic
+- [x] Arx Fatalis — gesture-drawn runes
+- [x] Black & White — gesture-drawn god magic
 - [x] Eternal Darkness — Three-rune Tome of Eternal Darkness
-- [ ] Outward — runic + sigils + alchemy
+- [x] Outward — runic + sigils + alchemy
 - [x] Caves of Qud — Mutations, psionics, cybernetics + faith
-- [ ] Stellaris — Psionic ascension (SF, but magic-coded)
+- [x] Stellaris — Psionic ascension (SF, but magic-coded)
 - [ ] Crusader Kings 3 — supernatural events / occult bloodlines
 - [ ] Nethack — D&D-derived spells + alchemy
-- [ ] Dwarf Fortress — secrets of life and death (necromancy + experiments)
-- [ ] Rimworld — Royalty psycasts + Anomaly entities
-- [ ] Don't Starve — magic vs science crafting tabs
+- [x] Dwarf Fortress — secrets of life and death (necromancy + experiments)
+- [x] Rimworld — Royalty psycasts + Anomaly entities
+- [x] Don't Starve — magic vs science crafting tabs
 - [ ] Stardew Valley — junimo + wizard
 - [x] Disco Elysium — Inland Empire (psychic-coded skill)
 
