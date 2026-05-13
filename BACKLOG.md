@@ -619,36 +619,36 @@ What to avoid:
 
 ### Marvel
 - [x] Doctor Strange — Astral, Eldritch, Vishanti, Crimson Bands of Cyttorak
-- [ ] Scarlet Witch — Chaos Magic / Reality Warping
+- [x] Scarlet Witch — Chaos Magic / Reality Warping
 - [ ] Loki — Asgardian sorcery
 - [ ] Wiccan — chaos magic descendant
 - [ ] Magik — Limbo soulsword
 - [ ] Brother Voodoo
 - [ ] Asgardian magic generally
 - [ ] Wakandan herb-of-power
-- [ ] Mutant powers (X-Men) — fictionally treated as biology, mechanically magic
+- [x] Mutant powers (X-Men) — fictionally treated as biology, mechanically magic
 - [ ] Dormammu / Mindless Ones / Limbo metaphysics
 - [ ] Eternals / Celestials cosmic engineering
 
 ### DC
-- [ ] John Constantine — Hellblazer occultism
-- [ ] Zatanna — backwards-speech sorcery
+- [x] John Constantine — Hellblazer occultism
+- [x] Zatanna — backwards-speech sorcery
 - [ ] Spectre — wrath-of-God incarnation
 - [ ] Madame Xanadu / Phantom Stranger
-- [ ] Doctor Fate — Helmet of Nabu
+- [x] Doctor Fate — Helmet of Nabu
 - [ ] Etrigan the Demon — rhyme-bound
 - [ ] Klarion the Witch Boy
-- [ ] Shazam — magic-word transformation
-- [ ] Lantern Corps — emotional spectrum
+- [x] Shazam — magic-word transformation
+- [x] Lantern Corps — emotional spectrum
 - [ ] Blue Beetle scarab — ancient tech / magic
 - [ ] Wonder Woman magic — gods of Olympus
 - [ ] Aquaman / Atlantean magic
 ### Independent / vertigo / image
-- [ ] Hellboy / BPRD — Mignolaverse occult
-- [ ] Promethea — Alan Moore magick treatise
+- [x] Hellboy / BPRD — Mignolaverse occult
+- [x] Promethea — Alan Moore magick treatise
 - [ ] The Wicked + The Divine — pantheon-incarnation
 - [ ] Saga — (mostly SF, some magic)
-- [ ] Locke & Key — keys-as-magic
+- [x] Locke & Key — keys-as-magic
 - [ ] Ms. Marvel — Inhuman / dimensional bracelet
 - [ ] Black Magick (Greg Rucka)
 - [ ] Coda
