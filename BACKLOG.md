@@ -586,16 +586,16 @@ What to avoid:
 
 - [x] The Force — *Star Wars*
 - [x] Bending — *Avatar: The Last Airbender / Korra*
-- [ ] Buffyverse magic — *Buffy / Angel*
-- [ ] Charmed — Halliwell/Power of Three witchcraft
+- [x] Buffyverse magic — *Buffy / Angel*
+- [x] Charmed — Halliwell/Power of Three witchcraft
 - [ ] Once Upon a Time — fairy tale magic
-- [ ] Supernatural — exorcisms, ritual magic, witchcraft, Heaven/Hell mechanics
+- [x] Supernatural — exorcisms, ritual magic, witchcraft, Heaven/Hell mechanics
 - [ ] American Horror Story: Coven — descended from Salem
 - [ ] Penny Dreadful — Victorian occultism
-- [ ] Chilling Adventures of Sabrina — Greendale witches
+- [x] Chilling Adventures of Sabrina — Greendale witches
 - [ ] Wednesday — Outcasts powers
-- [ ] The Owl House — bile sac + glyph magic
-- [ ] Stranger Things — Vecna / Mind Flayer / Eleven psi
+- [x] The Owl House — bile sac + glyph magic
+- [x] Stranger Things — Vecna / Mind Flayer / Eleven psi
 - [ ] Lost — (Island magic, mostly mythic; light/dark)
 - [ ] Lucifer — Mom + angelic gifts
 - [ ] Outlander — standing-stone time travel
@@ -603,15 +603,15 @@ What to avoid:
 - [ ] What We Do in the Shadows — vampire culture
 - [ ] Wizards of Waverly Place — wizard family magic
 - [ ] Princess Tutu — fairytale-as-narrative-magic
-- [ ] Studio Ghibli (collective umbrella; many films deserve their own treatment)
-  - [ ] Spirited Away spirit-bath logic
-  - [ ] Princess Mononoke gods/curses
-  - [ ] My Neighbor Totoro — gentle animism
-  - [ ] Kiki's Delivery Service — witch-tradition
-- [ ] Disney villainy / fairy-godmother magic (Sleeping Beauty, Cinderella, etc.)
+- [x] Studio Ghibli (collective umbrella; many films deserve their own treatment)
+  - [x] Spirited Away spirit-bath logic
+  - [x] Princess Mononoke gods/curses
+  - [x] My Neighbor Totoro — gentle animism
+  - [x] Kiki's Delivery Service — witch-tradition
+- [x] Disney villainy / fairy-godmother magic (Sleeping Beauty, Cinderella, etc.)
 - [ ] Pixar — limited; Onward has spell-driven plot
-- [ ] Encanto — gift magic
-- [ ] Moana — Te Fiti's heart, demigod gifts
+- [x] Encanto — gift magic
+- [x] Moana — Te Fiti's heart, demigod gifts
 
 ---
 
